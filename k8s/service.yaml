@@ -7,6 +7,6 @@ spec:
     app: users
   ports:
     - protocol: TCP
-      port: 80
+      port: 6000
       targetPort: 5000
-  type: NodePort
+  type: LoadBalancer
